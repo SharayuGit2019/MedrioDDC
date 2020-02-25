@@ -21,7 +21,7 @@ public class LoginTestFF
 		WebElement userLogin=dr.findElement(By.id("btnLogin"));
 		userLogin.click();
 		
-		dr.findElement(By.xpath("//a[@id ='welcome Admin']"))                                                                                              ;
+		dr.findElement(By.xpath("//a[@id ='Welcome Admin']"))                                                                                              ;
 	}
 
 }
